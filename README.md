@@ -10,11 +10,15 @@ Currently, two official plugins are available:
 
 
 npm create vite@latest > React > JavaScript > cd Project-Name > npm i > npm run dev
+
 npm i react-router-dom@latest
 
 import {useState,useEffect} from "react";
+
 import {customHook} from "/customHook"
+
 import {BrowserRouter,Route,Routes or Switch} from "react-router-dom"
 
 const [test,setTest] = useState("test")
+
 useEffect(() => {},[]);
