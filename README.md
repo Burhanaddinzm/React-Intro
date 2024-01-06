@@ -17,19 +17,7 @@ import {customHook} from "/customHook"
 
 import {BrowserRouter,Route,Routes or Switch} from "react-router-dom"
 
-`
-<BrowserRouter >
-
-<Routes or Switch >
-
-<Route >
-
-<Route />
-
-<Routes or Switch />
-
-<BrowserRouter />
-`
+`<BrowserRouter ><Routes or Switch ><Route ><Route /><Routes or Switch /><BrowserRouter />`
 
 const [test,setTest] = useState("test")
 
